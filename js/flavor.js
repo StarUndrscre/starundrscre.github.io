@@ -8,7 +8,9 @@ function randomtext() {
         "rescued at last! thank god you\'re here!",
         "you\'ll never hit me! you\'ll never hit my tiny little head!",
         "it\'s pronounced \"star-under-score\"",
-        "non-binary rights"
+        "non-binary rights",
+        "the wii was home to many wii games and wii games",
+        "is that a threat?"
     ];
     return flavortext[Math.floor((Math.random() * flavortext.length))];
 }
