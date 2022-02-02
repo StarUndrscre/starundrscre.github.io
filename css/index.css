@@ -161,37 +161,6 @@ a:hover {
 
 #hamnav label, #hamburger { display: none; }
 
-/* [ON SMALL SCREENS] */
-@media screen and (max-width: 768px){
-    /* (A) BREAK INTO VERTICAL MENU */
-    #hamitems a {
-      box-sizing: border-box;
-      display: block;
-      width: 100%;
-      border-top: 1px solid var(--sona-dark-blue);
-    }
-
-    /* (B) HIDE HEADER AND SHOW HAMNAV PROPERLY */
-    #hamnav {
-      display: block !important;
-    }
-    header {
-      display: none !important;
-    }
-   
-    /* (C) SHOW HAMBURGER ICON */
-    #hamnav label { 
-      display: inline-block; 
-      font-style: normal;
-      font-size: 1.2em;
-      padding: 10px;
-      background: var(--sona-dark-blue);
-    }
-  
-    /* (D) TOGGLE SHOW/HIDE MENU */
-    #hamitems { display: none; }
-    #hamnav input:checked ~ #hamitems { display: block; }
-  }
 
 /* 404 website */
 #flavortext_404 {
@@ -222,3 +191,72 @@ img {
     text-align: center;
     margin-top: 10vh;
 }
+
+/* minecraft */
+#preview {
+    text-align: center;
+}
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid var(--sona-dark-blue);
+    }
+
+    /* (B) HIDE HEADER AND SHOW HAMNAV PROPERLY */
+    #hamnav {
+      display: block !important;
+    }
+    header {
+      display: none !important;
+    }
+   
+    /* (C) SHOW HAMBURGER ICON */
+    #hamnav label { 
+      display: inline-block; 
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+      background: var(--sona-dark-blue);
+    }
+  
+    /* (D) TOGGLE SHOW/HIDE MENU */
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; }
+
+    /* text size stuff */
+    .header1 {
+        font-size: 1.5rem;
+    }
+
+    .header2 {
+        font-size: 1rem;
+        margin-top: 2px;
+    }
+
+    .leftcolumn {
+        margin-top: 2.5vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    
+    .rightcolumn {
+        margin-top: 2.5vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+  }
