@@ -161,7 +161,6 @@ a:hover {
 
 #hamnav label, #hamburger { display: none; }
 
-
 /* 404 website */
 #flavortext_404 {
     text-align: center;
@@ -190,6 +189,41 @@ img {
 #headerthing {
     text-align: center;
     margin-top: 10vh;
+}
+
+.small-img {
+    width: 10%;
+    height: 10%;
+}
+
+a img {
+    color: transparent;
+    background-color: var(--sona-dark-blue);
+}
+
+#plush {
+    width: 10%;
+    height: 10%;
+    border: 1px solid transparent;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+#mobile-text {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
 }
 
 /* minecraft */

@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/starplush.png" type="image/icon type">
     <!-- discord stuff -->
-    <meta content="StarUndrscre's Minecraft Megapack" property="og:title"/>
-    <meta content="🗿" property="og:description"/>
+    <meta content="StarUndrscre" property="og:title"/>
+    <meta content="*squeak*" property="og:description"/>
     <meta content="https://starundrscre.github.io" property="og:url"/>
     <meta content="/img/starplush.png" property="og:image"/>
     <meta content="#82b6ff" data-react-helmet="true" name="theme-color"/>
-    <title>StarUndrscre's Megapack</title>
+    <title>Virtual Star Plush</title>
 </head>
     <body>
+        <audio id="squish" preload="preload" src="../snd/squish.mp3"></audio>
+        <audio id="unsquish" preload="preload" src="../snd/unsquish.mp3"></audio>
         <header>
             <div id="header-content">
                 <div class="head-column" id="head-left">
@@ -31,6 +33,9 @@
                         <ul>
                             <li class="nav-link">
                                 <a href="/projects">projects</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="/other">other stuff</a>
                             </li>
                         </ul>
                     </div>
@@ -78,27 +83,22 @@
                     </li>
                 </ul>
             </div>
-            
         </nav>
 
-        <div id="headerthing">
-            <p class=header1>starundrscre's megapack</p>
-            <p id="version" class=header2></p>
-            <p>a list of credits can be found in the pack!<br><a href="https://github.com/StarUndrscre/starundrscre-megapack/blob/main/README.md">(or you can just read them here)</a></p>
-            <h1><a href="https://github.com/StarUndrscre/starundrscre-megapack">download</a></h1>
-        </div>
+        <script src="../js/plush.js"></script>
         
-        <div id="preview">
-            <img src="../img/projects/minecraft/spoonful.png">
-            <img src="../img/projects/minecraft/menacingbitch.png">
-            <br>
-            <img src="../img/projects/minecraft/spoonful2.png">
-            <img src="../img/projects/minecraft/gordon.png">
+        <div id="headerthing">
+            <p class=header1>virtual star plush</p>
+            <p class=header2>deluxe edition</p>
         </div>
 
-        <div id="footer-long">
+        <div class="center">
+            <img id="plush" onload="mobileCheck()" onmousedown="squish()" onmouseup="unsquish()" onmouseleave="unsquishNoAud()" src="../img/starplush.png">
+            <p id="mobile-text">this currently doesn't work on mobile. sorry!</p>
+        </div>
+        
+        <div id="footer">
             this site is a work in progress!<br>expect some buggy things to happen
         </div>
-        <script src="../js/mc_version.js"></script>
     </body>
 </html>
