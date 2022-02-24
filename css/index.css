@@ -226,6 +226,13 @@ a img {
     text-align: center;
 }
 
+.small {
+    width: 2%;
+    height: 2%;
+    border: 0 solid transparent;
+    background-color: transparent;
+}
+
 /* minecraft */
 #preview {
     text-align: center;

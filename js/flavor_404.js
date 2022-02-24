@@ -11,10 +11,19 @@ function randomtext() {
         "oh shoot, it\'s a white guy!",
         "to buy video games right now, i have to leave my room?",
         "the wii was home to many wii games and wii games",
-        "is that a threat?"
+        "is that a threat?",
+        "yup, it\'s official, i\'m certified worthless",
+        "there\'s always next year, verizon",
+        "metropolis zone. also known as, \"<b><i>AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</i></b>\"",
+        "fire emblem. (silence) <br><br> \"<b><i>AAAAAAAAAAAAAAAAAAAAAAAAAAAAA</i></b>\""
     ];
     return flavortext[Math.floor((Math.random() * flavortext.length))];
 }
 document.getElementById("flavortext_404").innerHTML = randomtext();
+
+function doTheThing() {
+    document.getElementById("flavortext_404").innerHTML = randomtext();
+}
+
 
 // https://twitter.com/ScottWozQuotes
