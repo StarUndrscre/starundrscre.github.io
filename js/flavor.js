@@ -17,7 +17,6 @@ function randomtext() {
         "srt lore",
         "meri cute <3",
         "dglakjdasjkfahslkdfhsakfjadsjghsdflkadlkfja",
-        //"is it all just trickery to you?",
         "i detest trickery",
         "<a href=\"/other/plush\">get your own star plush today</a>",
         "you disingenuous dense motherbleeper",
